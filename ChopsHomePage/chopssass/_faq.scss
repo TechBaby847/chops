@@ -1,0 +1,161 @@
+.jumboish {
+    margin-top: 1.5rem;
+    text-align: center;
+    background: rgba(66, 175, 182, 0.06);
+
+    .faq {
+        padding: 10rem 0rem;
+        font-size: 4.7rem;
+        font-weight: bold;
+        line-height: 4.7rem;
+        word-spacing: 0.18rem;
+        letter-spacing: -0.15rem;
+    }
+}
+.faqbtn {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btnfirst {
+        padding: 1rem 3.1rem;
+        background: #42afb6;
+        color: white;
+        border: none;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .btnsecond {
+        padding: 1rem 3.5rem;
+        background: white;
+        border: 1px solid rgba($color: #adadad, $alpha: 0.7);
+        border-radius: 0.5rem;
+        font-size: 21px;
+        font-weight: 400;
+    }
+}
+.dropbtn {
+    background-color: #fff;
+    color: #42afb6;
+    width: 100rem;
+    text-align: left;
+    padding: 14px;
+    padding-left: 5rem;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #a8a8a8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 9.5rem;
+  }
+//   .dott {
+//     height: 25px;
+//     width: 25px;
+//     margin-left: 67rem;
+//     background-color: transparent;
+//     border: 2px solid #a8a8a8;
+//     border-radius: 50%;
+//     display: inline-block;
+//     position: relative;
+//     top: 0.3rem;
+
+//     .spa a {
+//         color: #a8a8a7;
+//         text-decoration: none;
+//         font-size: 1.6rem;
+//         position: relative;
+//         left: 0.08rem;
+//         bottom: 0.716rem;
+//     }
+// }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content p {
+    background: rgba($color: #adadad, $alpha: 0.1);
+    color: black;
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    font-size: 19px;
+    font-weight: 500;
+
+    a {
+        text-decoration: none;
+        color: #42afb6;
+    }
+  }
+  
+  .dropdown-content a:hover {
+      background-color: transparent;
+      color: red;
+    }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #42afb6;
+    color: #fff;
+  }
+
+@media ( max-width: 501px) {
+  .faqpress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+  }
+  .faqbtn .btnfirst {
+    padding: 0.7rem 4.1rem;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+  .faqbtn .btnsecond {
+    padding: 0.7rem 3rem;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  .sectiondrop {
+    margin-left: 0rem;
+  }
+  .dropdown {
+    margin-left: 2rem;
+
+    p {
+      font-size: 10px;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+  .dropbtn {
+    width: 25rem;
+    text-align: left;
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #a8a8a8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 0rem !important;
+  }
+}
