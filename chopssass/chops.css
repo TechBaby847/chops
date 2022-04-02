@@ -1472,6 +1472,9 @@ hr {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .navfooter .navfoot .golo {
+    width: 30px;
+  }
   .navfooter .navfoot p.ceet {
     font-size: 15px;
   }
