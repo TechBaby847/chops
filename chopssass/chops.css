@@ -993,11 +993,14 @@ hr {
             align-items: center;
   }
   .firstwords {
-    width: 90%;
-    font-size: 11px;
+    width: 80%;
+    font-size: 0.75rem;
   }
   .header {
     margin-top: 0rem !important;
+  }
+  .logo {
+    width: 40px !important;
   }
   .sectionone {
     display: -webkit-box;
@@ -1730,6 +1733,9 @@ hr {
     margin-bottom: 0rem;
     font-size: 15px;
     padding: 0.7rem 1.5rem !important;
+    border: none;
+    color: #fff;
+    background: #42afb6;
   }
 }
 

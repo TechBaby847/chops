@@ -909,13 +909,15 @@ hr {
         }
     }
     .firstwords {
-        width: 90%;
-        font-size: 11px;
+        width: 80%;
+        font-size: 0.75rem;
     }
     .header {
         margin-top: 0rem !important;
     }
-
+    .logo {
+        width: 40px !important;
+    }
     .sectionone {
         display: flex;
         flex-direction: column;
